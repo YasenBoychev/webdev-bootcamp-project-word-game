@@ -1,0 +1,88 @@
+/* Change the value of the rem unit on smaller screens to make the content smaller,
+since rem units have been mostly used */
+/* Laptop */
+@media screen and (max-width: 1024px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+/* Mobile Large */
+@media screen and (max-width: 425px) {
+  :root {
+    font-size: 10px;
+  }
+}
+
+/* Mobile Small */
+@media screen and (max-width: 320px) {
+  :root {
+    font-size: 8px;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* Disable text selection */
+  /* Safari */
+  -webkit-user-select: none;
+  /* Standard syntax */
+  user-select: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 640px;
+  margin-block: 2rem;
+  margin-inline: auto;
+  padding-inline: 0.5rem;
+}
+
+.loading-status {
+  font-size: 2rem;
+  padding-block-start: 10rem;
+}
+
+.status-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 640px;
+  margin-block: 2rem;
+  margin-inline: auto;
+  padding-inline: 0.5rem;
+  min-height: 3rem;
+  align-items: center;
+}
+
+.status-bar__right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.button {
+  font-size: 2rem;
+  padding: 0.5rem;
+  border: 0.2rem solid cornflowerblue;
+  border-radius: 0.5rem;
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(90, 139, 227);
+  border-color: rgb(90, 139, 227);
+}
+
+.new-game-btn {
+  width: 100%;
+}

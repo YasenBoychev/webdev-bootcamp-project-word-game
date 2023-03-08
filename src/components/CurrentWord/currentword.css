@@ -1,0 +1,16 @@
+.current-word {
+  max-width: initial;
+  width: fit-content;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  font-size: 2rem;
+  width: 2.5rem;
+  text-align: center;
+}

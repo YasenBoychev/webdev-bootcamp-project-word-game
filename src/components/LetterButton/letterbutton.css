@@ -1,0 +1,33 @@
+.letter-button {
+  width: 4rem;
+  height: 4rem;
+}
+
+.letter-button:hover {
+  background-color: rgb(90, 139, 227);
+  border-color: rgb(90, 139, 227);
+}
+
+.correct-guess,
+.correct-guess:hover {
+  background: none;
+  border-color: green;
+  color: green;
+  cursor: initial;
+}
+
+.wrong-guess,
+.wrong-guess:hover {
+  background: none;
+  border-color: red;
+  color: red;
+  cursor: initial;
+}
+
+.letter-button--disabled,
+.letter-button--disabled:hover {
+  background-color: rgb(200, 200, 200);
+  border-color: rgb(200, 200, 200);
+  color: white;
+  cursor: initial;
+}
