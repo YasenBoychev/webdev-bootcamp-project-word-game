@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/webdev-bootcamp-project-word-game/static/css/main.249d3a16.css",
+    "main.js": "/webdev-bootcamp-project-word-game/static/js/main.bd96cf4d.js",
+    "index.html": "/webdev-bootcamp-project-word-game/index.html",
+    "main.249d3a16.css.map": "/webdev-bootcamp-project-word-game/static/css/main.249d3a16.css.map",
+    "main.bd96cf4d.js.map": "/webdev-bootcamp-project-word-game/static/js/main.bd96cf4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.249d3a16.css",
+    "static/js/main.bd96cf4d.js"
+  ]
+}
